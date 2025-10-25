@@ -1,0 +1,65 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Logs / runtime files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+*.sock
+
+# Build / coverage
+dist/
+build/
+lib/
+out/
+coverage/
+.nyc_output/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# MongoDB data / dumps
+data/
+data/db/
+dump/
+*.bson
+*.gz
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# SSL / keys
+*.pem
+*.key
+*.crt
+
+# IDEs / Editors / OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# Misc
+*.sqlite
+*.sqlite3
