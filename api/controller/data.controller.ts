@@ -1,6 +1,6 @@
-import { IRobotData } from "../models/RobotData";
+import RobotData, { IRobotData } from "../models/RobotData.js";
 import { Request, Response } from "express";
-import RobotData from "../models/RobotData";
+
 
 export const getData = async (req: Request, res: Response) => {
 
