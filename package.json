@@ -1,11 +1,11 @@
 {
   "name": "iot-esp32-robo-espacial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tsx watch api/index.ts",
+    "dev": "tsx watch api/index.ts",
     "start:database": "docker compose up -d"
   },
   "author": "",
@@ -18,6 +18,9 @@
   "devDependencies": {
     "@types/dotenv": "^8.2.3",
     "@types/express": "^5.0.4",
-    "@types/mongoose": "^5.11.97"
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^24.9.1",
+    "@vercel/node": "^5.5.0",
+    "ts-node": "^10.9.2"
   }
 }
